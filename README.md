@@ -4,13 +4,14 @@ Una utilidad en Terraform para desplegar una instancia EC2 económica (pero no d
 
 ## 🛠️ ¿Qué hace este proyecto?
 
-- Crea una instancia EC2 optimizada para bajo costo (por ejemplo, `t3a.small` o similar).
+- Crea una instancia EC2 optimizada para bajo costo (por ejemplo, `t3.large` spot).
 - Abre los puertos necesarios: 
   - `22` para SSH
   - `80` para HTTP
   - `443` para HTTPS
 - Instala Docker y Docker Compose automáticamente.
 - Permite desplegar aplicaciones fácilmente usando `docker-compose`.
+- En la zona eu-west-1 de aws
 
 ## 📦 Requisitos
 
