@@ -28,6 +28,8 @@ Una utilidad en Terraform para desplegar una instancia EC2 económica (pero no d
 git clone https://github.com/Jose26Madrid/terraform.git
 cd terraform-ec2-docker
 
+```
+
 ## 📄 Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
