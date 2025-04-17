@@ -78,7 +78,8 @@ resource "aws_instance" "django_sonar_spot" {
               EOF
 }
 
-output "ip_publica" {
-  value       = aws_instance.django_sonar_spot.public_ip
-  description = "IP pública temporal de la instancia"
+output "acceso_instancia" {
+  value = "Accede a la IP ${aws_instance.django_sonar_spot.public_ip} usando los siguientes puertos: SSH (22), HTTP (80), HTTPS (443), SonarQube UI (9000)"
+  description = "IP pública y puertos disponibles para acceso"
 }
+
