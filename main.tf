@@ -79,7 +79,13 @@ resource "aws_instance" "django_sonar_spot" {
 }
 
 output "acceso_instancia" {
-  value = "Accede a la IP ${aws_instance.django_sonar_spot.public_ip} usando los siguientes puertos: SSH (22), HTTP (80), HTTPS (443), SonarQube UI (9000)"
+  value       = "Accede a la IP ${aws_instance.django_sonar_spot.public_ip} usando los siguientes puertos: SSH (22), HTTP (80), HTTPS (443), SonarQube UI (9000)"
   description = "IP pública y puertos disponibles para acceso"
 }
+
+output "id_instancia" {
+  value       = aws_instance.django_sonar_spot.id
+  description = "ID de la instancia EC2 creada"
+}
+
 
