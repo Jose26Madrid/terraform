@@ -26,7 +26,7 @@ Una utilidad en Terraform para desplegar una instancia EC2 económica (pero no d
 
 ```bash
 git clone https://github.com/Jose26Madrid/terraform.git
-cd terraform-ec2-docker
+cd terraform
 
 ```
 
