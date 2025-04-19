@@ -89,3 +89,6 @@ output "id_instancia" {
 }
 
 
+# MIT License
+# Copyright (c) 2025 Jose Magariño
+# See LICENSE file for more details.
